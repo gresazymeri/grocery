@@ -1,0 +1,179 @@
+
+.logo{
+display: flex;
+flex-wrap: wrap;
+width: 45px;
+height: 45px;  
+}
+.logo1{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 26px;
+margin-left: 14px;
+margin-top: 7px;
+color: #3BB77E;
+}
+#home {
+ background: rgba(197, 234, 217, 0.78);
+min-height: 60vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+display: flex;
+align-items: center;
+}
+.txt{
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+letter-spacing: -0.01em;
+color: #253D4E;
+}
+
+
+.mycard{
+  width: 200px;
+  height: 100px
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+.card{
+  margin: 10px;
+}
+.card1{
+  background-color: #f5e0f1;
+}
+.card2{
+  background-color: #cfdef5;
+}.card3{
+  background-color: #caf0d8;
+}.card4{
+  background-color: #f5e0f1;
+}.card5{
+  background-color: #cff3f3;
+}.card6{
+  background-color: #f5e0f1;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+}
+.mylist{
+margin-left: 40px;
+}
+.clr{
+  color: rgb(243, 229, 36);
+}
+.btn1{
+  background-color: #b3e7cf;
+  color: #3b9169;
+}
+
+
+#features{
+  margin-top: 70px;
+  min-height: 30vh;
+}
+
+.feature .icon-box {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  font-size: 40px;
+  color: #00B59C;
+  margin: 10px;
+  
+}
+
+#shop-faster{
+    background: rgba(197, 234, 217, 0.78);
+   min-height: 90vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;
+   
+}
+.mybox{
+
+  margin-left: 50px;
+  margin-bottom: 100px;
+  width: 500px;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+
+ 
+}
+
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background-color: #fafafa;
+}
+.footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer  {
+  color: #414242;
+}
+.social-icons a {
+  color: #3db85c;
+}
+
+footer .social-icons a {
+  font-size: 35px;
+  margin: 7px;
+}
+
+footer .footer-links a {
+  display: block;
+  font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+  color: #2ba33b;
+}
