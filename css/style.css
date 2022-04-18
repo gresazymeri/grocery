@@ -1,9 +1,26 @@
-
+body{
+  overflow-x: hidden;
+}
+p{
+  font-weight: 500;
+  font-family: "Quicksand";
+  font-size: 18px;
+}
+#top-sells{
+  margin-top: 80px;
+}
 .logo{
 display: flex;
 flex-wrap: wrap;
 width: 45px;
 height: 45px;  
+}
+.back-box{
+  background-color: #F4F6FA;
+}
+.nob{
+  border: none;
+  padding-top: 20px;
 }
 .logo1{
 font-family: 'Quicksand';
@@ -15,14 +32,9 @@ margin-left: 14px;
 margin-top: 7px;
 color: #3BB77E;
 }
-#home {
- background: rgba(197, 234, 217, 0.78);
-min-height: 60vh;
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-display: flex;
-align-items: center;
+.home {
+ background: rgba(197, 234, 217, 0.78);;
+ background-image: url(C:/Users/lavdi/OneDrive/Desktop/grocery/images/backimg.png);
 }
 .txt{
 font-family: cursive;
@@ -32,7 +44,25 @@ font-size: 40px;
 letter-spacing: -0.01em;
 color: #253D4E;
 }
-
+.green{
+  color:  #3BB77E;
+  font-weight: 500;
+}
+.img1{
+  width: 700px; 
+  height: 400px;
+  margin-right: 50px;
+}
+.box-img{
+  height: 200px;
+  width: 150px;
+  margin-right: -70px;
+  
+}
+.third-img{
+  height: 400px;
+  
+}
 
 .mycard{
   width: 200px;
@@ -106,12 +136,10 @@ margin-left: 40px;
   color: #3b9169;
 }
 
-
 #features{
   margin-top: 70px;
   min-height: 30vh;
 }
-
 .feature .icon-box {
   width: 34px;
   height: 34px;
@@ -121,9 +149,9 @@ margin-left: 40px;
   margin: 10px;
   
 }
-
 #shop-faster{
     background: rgba(197, 234, 217, 0.78);
+    background-image: url(C:/Users/lavdi/OneDrive/Desktop/grocery/images/backimg.png);
    min-height: 90vh;
    background-size: cover;
    background-position: center;
@@ -133,15 +161,13 @@ margin-left: 40px;
    
 }
 .mybox{
-
+  background-image: url(C:/Users/lavdi/OneDrive/Desktop/grocery/images/backimg.png);
   margin-left: 50px;
   margin-bottom: 100px;
   width: 500px;
   height: auto;
   padding-top: 20px;
   padding-right: 20px;
-
- 
 }
 
 .footer-top {
